@@ -15,12 +15,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="StarWarsGalaxyOfHeroesPriorities_files/sheet003.htm">
 <link id="shLink" href="StarWarsGalaxyOfHeroesPriorities_files/sheet004.htm">
 <link id="shLink" href="StarWarsGalaxyOfHeroesPriorities_files/sheet005.htm">
+<link id="shLink" href="StarWarsGalaxyOfHeroesPriorities_files/sheet006.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=5;
+ var c_lTabs=6;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Characters";
@@ -28,6 +29,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
  c_rgszSh[2] = "Priorities";
  c_rgszSh[3] = "Requirements";
  c_rgszSh[4] = "RefShardSources";
+ c_rgszSh[5] = "Squads";
 
 
 
@@ -57,7 +59,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[5].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -329,12 +331,18 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet005.htm"/>
    </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Squads</x:Name>
+    <x:WorksheetSource
+     HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet006.htm"/>
+   </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="StarWarsGalaxyOfHeroesPriorities_files/stylesheet.css"/>
   <x:WindowHeight>21240</x:WindowHeight>
   <x:WindowWidth>32767</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
+  <x:ActiveSheet>5</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -342,7 +350,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="StarWarsGalaxyOfHeroesPriorities_files/sheet001.htm" name="frSheet">
+ <frame src="StarWarsGalaxyOfHeroesPriorities_files/sheet006.htm" name="frSheet">
  <frame src="StarWarsGalaxyOfHeroesPriorities_files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
