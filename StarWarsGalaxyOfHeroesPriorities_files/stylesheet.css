@@ -1072,20 +1072,12 @@ td
 	mso-pattern:black none;}
 .xl203
 	{mso-style-parent:style0;
-	font-weight:700;
-	text-align:center;
-	border-top:.5pt solid windowtext;
-	border-right:none;
-	border-bottom:.5pt solid windowtext;
-	border-left:.5pt solid windowtext;
-	background:gray;
-	mso-pattern:black none;}
+	text-align:left;}
 .xl204
 	{mso-style-parent:style0;
 	font-weight:700;
-	text-align:center;
 	border-top:.5pt solid windowtext;
-	border-right:none;
+	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;
 	background:gray;
@@ -1095,27 +1087,27 @@ td
 	font-weight:700;
 	text-align:center;
 	border-top:.5pt solid windowtext;
-	border-right:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;
-	border-left:none;
-	background:gray;
-	mso-pattern:black none;}
-.xl206
-	{mso-style-parent:style0;
-	font-weight:700;
-	text-align:left;
-	border-top:.5pt solid windowtext;
 	border-right:none;
 	border-bottom:.5pt solid windowtext;
 	border-left:.5pt solid windowtext;
 	background:gray;
 	mso-pattern:black none;}
+.xl206
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:gray;
+	mso-pattern:black none;}
 .xl207
 	{mso-style-parent:style0;
 	font-weight:700;
-	text-align:left;
+	text-align:center;
 	border-top:.5pt solid windowtext;
-	border-right:none;
+	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;
 	background:gray;
@@ -1124,9 +1116,15 @@ td
 	{mso-style-parent:style0;
 	font-weight:700;
 	text-align:left;
-	border-top:.5pt solid windowtext;
-	border-right:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;
-	border-left:none;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:gray;
+	mso-pattern:black none;}
+.xl209
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:left;
 	background:gray;
 	mso-pattern:black none;}
