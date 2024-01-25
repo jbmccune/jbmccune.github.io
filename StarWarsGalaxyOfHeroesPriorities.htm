@@ -19,25 +19,23 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="StarWarsGalaxyOfHeroesPriorities_files/sheet007.htm">
 <link id="shLink" href="StarWarsGalaxyOfHeroesPriorities_files/sheet008.htm">
 <link id="shLink" href="StarWarsGalaxyOfHeroesPriorities_files/sheet009.htm">
-<link id="shLink" href="StarWarsGalaxyOfHeroesPriorities_files/sheet010.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=10;
+ var c_lTabs=9;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Characters";
- c_rgszSh[1] = "Ships";
- c_rgszSh[2] = "Priorities";
- c_rgszSh[3] = "PriorityCalc";
+ c_rgszSh[0] = "Priorities";
+ c_rgszSh[1] = "Characters";
+ c_rgszSh[2] = "Ships";
+ c_rgszSh[3] = "Dependencies";
  c_rgszSh[4] = "CurrentSquads";
- c_rgszSh[5] = "RefShardSources";
- c_rgszSh[6] = "Dependencies";
- c_rgszSh[7] = "Requirements";
- c_rgszSh[8] = "Squads";
- c_rgszSh[9] = "CurrentGoals";
+ c_rgszSh[5] = "ShardSources";
+ c_rgszSh[6] = "PriorityCalc";
+ c_rgszSh[7] = "_Squads";
+ c_rgszSh[8] = "_CurrentGoals";
 
 
 
@@ -67,7 +65,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[2].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -315,22 +313,22 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Characters</x:Name>
+    <x:Name>Priorities</x:Name>
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet001.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Ships</x:Name>
+    <x:Name>Characters</x:Name>
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet002.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Priorities</x:Name>
+    <x:Name>Ships</x:Name>
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet003.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>PriorityCalc</x:Name>
+    <x:Name>Dependencies</x:Name>
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet004.htm"/>
    </x:ExcelWorksheet>
@@ -340,29 +338,24 @@ function fnSetActiveSheet(iSh)
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet005.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>RefShardSources</x:Name>
+    <x:Name>ShardSources</x:Name>
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet006.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Dependencies</x:Name>
+    <x:Name>PriorityCalc</x:Name>
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet007.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Requirements</x:Name>
+    <x:Name>_Squads</x:Name>
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet008.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Squads</x:Name>
+    <x:Name>_CurrentGoals</x:Name>
     <x:WorksheetSource
      HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet009.htm"/>
-   </x:ExcelWorksheet>
-   <x:ExcelWorksheet>
-    <x:Name>CurrentGoals</x:Name>
-    <x:WorksheetSource
-     HRef="StarWarsGalaxyOfHeroesPriorities_files/sheet010.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="StarWarsGalaxyOfHeroesPriorities_files/stylesheet.css"/>
@@ -370,7 +363,6 @@ function fnSetActiveSheet(iSh)
   <x:WindowWidth>32767</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
-  <x:ActiveSheet>2</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -378,7 +370,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="StarWarsGalaxyOfHeroesPriorities_files/sheet003.htm" name="frSheet">
+ <frame src="StarWarsGalaxyOfHeroesPriorities_files/sheet001.htm" name="frSheet">
  <frame src="StarWarsGalaxyOfHeroesPriorities_files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
