@@ -23,12 +23,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="MarvelStrikeForcePriorities_files/sheet011.htm">
 <link id="shLink" href="MarvelStrikeForcePriorities_files/sheet012.htm">
 <link id="shLink" href="MarvelStrikeForcePriorities_files/sheet013.htm">
+<link id="shLink" href="MarvelStrikeForcePriorities_files/sheet014.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=13;
+ var c_lTabs=14;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Characters";
@@ -41,9 +42,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
  c_rgszSh[7] = "Goals";
  c_rgszSh[8] = "RefCharacters";
  c_rgszSh[9] = "Dependencies";
- c_rgszSh[10] = "_Squads";
- c_rgszSh[11] = "_Tags";
- c_rgszSh[12] = "TmpSquadRef";
+ c_rgszSh[10] = "CurrentSquads";
+ c_rgszSh[11] = "PriorityCalc";
+ c_rgszSh[12] = "_Tags";
+ c_rgszSh[13] = "TmpSquadRef";
 
 
 
@@ -361,16 +363,20 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet010.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>_Squads</x:Name>
+    <x:Name>CurrentSquads</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet011.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>_Tags</x:Name>
+    <x:Name>PriorityCalc</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet012.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>TmpSquadRef</x:Name>
+    <x:Name>_Tags</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet013.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>TmpSquadRef</x:Name>
+    <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet014.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="MarvelStrikeForcePriorities_files/stylesheet.css"/>
