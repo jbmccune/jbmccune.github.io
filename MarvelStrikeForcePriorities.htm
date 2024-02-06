@@ -35,17 +35,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
  c_rgszSh[0] = "Characters";
  c_rgszSh[1] = "Roster";
  c_rgszSh[2] = "Priorities";
- c_rgszSh[3] = "CurrentSquads";
- c_rgszSh[4] = "Squad Builder";
+ c_rgszSh[3] = "Squad Builder";
+ c_rgszSh[4] = "CurrentSquads";
  c_rgszSh[5] = "Shards-Campaign";
  c_rgszSh[6] = "Shards-Supplies";
  c_rgszSh[7] = "Goals";
- c_rgszSh[8] = "Dependencies";
- c_rgszSh[9] = "PriorityCalc";
- c_rgszSh[10] = "RefCharacters";
- c_rgszSh[11] = "Squads";
- c_rgszSh[12] = "_Tags";
- c_rgszSh[13] = "TmpSquadRef";
+ c_rgszSh[8] = "_Dependencies";
+ c_rgszSh[9] = "_PriorityCalc";
+ c_rgszSh[10] = "_RefCharacters";
+ c_rgszSh[11] = "_Tags";
+ c_rgszSh[12] = "OldSquads";
+ c_rgszSh[13] = "OldSquadRef";
 
 
 
@@ -335,11 +335,11 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet003.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>CurrentSquads</x:Name>
+    <x:Name>Squad Builder</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet004.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Squad Builder</x:Name>
+    <x:Name>CurrentSquads</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet005.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
@@ -355,27 +355,27 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet008.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Dependencies</x:Name>
+    <x:Name>_Dependencies</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet009.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>PriorityCalc</x:Name>
+    <x:Name>_PriorityCalc</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet010.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>RefCharacters</x:Name>
+    <x:Name>_RefCharacters</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet011.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Squads</x:Name>
+    <x:Name>_Tags</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet012.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>_Tags</x:Name>
+    <x:Name>OldSquads</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet013.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>TmpSquadRef</x:Name>
+    <x:Name>OldSquadRef</x:Name>
     <x:WorksheetSource HRef="MarvelStrikeForcePriorities_files/sheet014.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
