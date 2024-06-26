@@ -1073,31 +1073,31 @@ td
 	border-bottom:none;
 	border-left:.5pt solid windowtext;}
 .xl202
-	{mso-style-parent:style16;
-	color:#467886;
-	text-decoration:underline;
-	text-underline-style:single;}
-.xl203
-	{mso-style-parent:style0;
-	border:.5pt solid windowtext;
-	background:#CAEDFB;
-	mso-pattern:black none;}
-.xl204
 	{mso-style-parent:style0;
 	font-weight:700;
-	text-align:center;
+	text-align:left;
 	border-top:.5pt solid windowtext;
 	border-right:none;
 	border-bottom:.5pt solid windowtext;
 	border-left:.5pt solid windowtext;
 	background:gray;
 	mso-pattern:black none;}
+.xl203
+	{mso-style-parent:style16;
+	color:#467886;
+	text-decoration:underline;
+	text-underline-style:single;}
+.xl204
+	{mso-style-parent:style0;
+	border:.5pt solid windowtext;
+	background:#CAEDFB;
+	mso-pattern:black none;}
 .xl205
 	{mso-style-parent:style0;
 	font-weight:700;
-	text-align:center;
+	text-align:left;
 	border-top:.5pt solid windowtext;
-	border-right:none;
+	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;
 	background:gray;
@@ -1107,27 +1107,27 @@ td
 	font-weight:700;
 	text-align:center;
 	border-top:.5pt solid windowtext;
-	border-right:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;
-	border-left:none;
-	background:gray;
-	mso-pattern:black none;}
-.xl207
-	{mso-style-parent:style0;
-	font-weight:700;
-	text-align:left;
-	border-top:.5pt solid windowtext;
 	border-right:none;
 	border-bottom:.5pt solid windowtext;
 	border-left:.5pt solid windowtext;
 	background:gray;
 	mso-pattern:black none;}
+.xl207
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:gray;
+	mso-pattern:black none;}
 .xl208
 	{mso-style-parent:style0;
 	font-weight:700;
-	text-align:left;
+	text-align:center;
 	border-top:.5pt solid windowtext;
-	border-right:none;
+	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;
 	background:gray;
