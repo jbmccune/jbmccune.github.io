@@ -596,7 +596,10 @@ td
 	color:windowtext;
 	font-weight:700;
 	text-align:center;
-	border:.5pt solid windowtext;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
 	background:gray;
 	mso-pattern:black none;}
 .xl141
@@ -607,7 +610,7 @@ td
 	border-top:.5pt solid windowtext;
 	border-right:none;
 	border-bottom:.5pt solid windowtext;
-	border-left:.5pt solid windowtext;
+	border-left:none;
 	background:gray;
 	mso-pattern:black none;}
 .xl142
@@ -616,7 +619,7 @@ td
 	font-weight:700;
 	text-align:center;
 	border-top:.5pt solid windowtext;
-	border-right:none;
+	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;
 	background:gray;
@@ -626,10 +629,7 @@ td
 	color:windowtext;
 	font-weight:700;
 	text-align:center;
-	border-top:.5pt solid windowtext;
-	border-right:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;
-	border-left:none;
+	border:.5pt solid windowtext;
 	background:gray;
 	mso-pattern:black none;}
 .xl144
